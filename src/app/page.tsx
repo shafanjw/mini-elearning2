@@ -1,8 +1,7 @@
 "use client";
 
 import Head from 'next/head';
-import Navbar from './components/navbar'; // Import the Navbar component
-import Footer from './components/footer'
+import { Navbar, Footer } from "./components"; // Import the Navbar and Footer components
 
 export default function Home() {
 
@@ -74,7 +73,7 @@ export default function Home() {
       </main>
 
       <Footer></Footer>
-      
+
     </div>
   );
 }
